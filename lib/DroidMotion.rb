@@ -1,6 +1,6 @@
-require "MotionDroid/version"
+require "DroidMotion/version"
 
-module MotionDroid
+module DroidMotion
   def linear_layout(&block)
   end
 

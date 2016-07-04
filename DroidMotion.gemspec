@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'MotionDroid/version'
+require 'DroidMotion/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "MotionDroid"
-  spec.version       = MotionDroid::VERSION
+  spec.name          = "DroidMotion"
+  spec.version       = DroidMotion::VERSION
   spec.authors       = ["Ajith Hussain"]
   spec.email         = ["ajith.hussain@gmail.com"]
 
