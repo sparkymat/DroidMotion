@@ -9,12 +9,9 @@ Motion::Project::App.setup do |app|
 end
 
 module DroidMotion
-  class LinearLayout
+  class LinearLayout < ::Android::Widget::LinearLayout
     def text_view(opts)
     end
-  end
-
-  class RelativeLayout
   end
 
   def linear_layout(opts, &block)
@@ -22,8 +19,5 @@ module DroidMotion
     layout.instance_eval(&block)
 
     layout
-  end
-
-  def relative_layout(opts, &block)
   end
 end
